@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvNrupul"
+        android:textSize="18sp"
+        android:paddingVertical="19dp"
+        android:paddingHorizontal="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nrupul"
+        android:background="#DE1717"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/tvDev"
+        android:textSize="18sp"
+        android:paddingVertical="19dp"
+        android:paddingHorizontal="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dev"
+        android:layout_alignParentEnd="true"
+        android:background="#0E0481"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/tvAman"
+        android:textSize="18sp"
+        android:paddingVertical="19dp"
+        android:paddingHorizontal="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aman"
+
+        android:layout_marginTop="291dp"
+        android:background="#920495"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/tvPrateek"
+        android:textSize="18sp"
+        android:paddingTop="13dp"
+        android:paddingBottom="22dp"
+        android:paddingLeft="44dp"
+        android:paddingRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prateek"
+        android:layout_marginTop="133dp"
+        android:layout_marginLeft="130dp"
+        android:background="#B4A311"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/tvRahul"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rahul"
+        android:paddingVertical="11dp"
+        android:paddingHorizontal="50dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginLeft="130dp"
+        android:background="#3F0D66"
+        android:textColor="#FFFFFF"
+        />
+
+</RelativeLayout>
